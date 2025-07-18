@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новосибирская школа частного права</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="logo">
+                    <h1 class="logo__title">НШЧП</h1>
+                    <div class="logo__subtitle">Новосибирская школа частного права</div>
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">О журнале</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#archive" class="nav__link">Архив</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#authors" class="nav__link">Авторам</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#subscription" class="nav__link">Подписка</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#conferences" class="nav__link">Конференции</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Поиск по журналу...">
+                    <button class="search-btn">🔍</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Home Section -->
+        <section id="home" class="section section--home">
+            <div class="container">
+                <div class="hero">
+                    <div class="hero__content">
+                        <h2 class="hero__title">Новосибирская школа частного права</h2>
+                        <p class="hero__subtitle">Научно-практический журнал по цивилистике</p>
+                        <div class="hero__details">
+                            <span class="hero__detail">Выходит ежемесячно</span>
+                            <span class="hero__detail">ISSN 2587-4521 (print)</span>
+                            <span class="hero__detail">ISSN 2587-4530 (online)</span>
+                        </div>
+                        <div class="hero__stats">
+                            <div class="stat">
+                                <div class="stat__value">1.245</div>
+                                <div class="stat__label">Импакт-фактор РИНЦ</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat__value">30-45 дней</div>
+                                <div class="stat__label">Время рецензирования</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat__value">35%</div>
+                                <div class="stat__label">Процент принятых статей</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat__value">15,000+</div>
+                                <div class="stat__label">Подписчиков</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-section">
+                    <h3>Новости и события</h3>
+                    <div class="news-grid">
+                        <article class="news-card">
+                            <div class="news-card__date">15.01.2025</div>
+                            <h4 class="news-card__title">Объявлен набор в ЛПШ! Пишите ТГП Монстру!</h4>
+                            <p class="news-card__text">Редакция объявляет о приеме тяжелых наркотиков при создании сайта.</p>
+                        </article>
+                        <article class="news-card">
+                            <div class="news-card__date">10.01.2025</div>
+                            <h4 class="news-card__title">Вышел первый номер журнала за 2025 год</h4>
+                            <p class="news-card__text">В номере представлены статьи ведущих цивилистов России по актуальным вопросам частного права.</p>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="current-issue">
+                    <h3>Текущий номер - №1, 2025</h3>
+                    <div class="articles-grid">
+                        <article class="article-card">
+                            <h4 class="article-card__title">Правовые последствия сокрытия доходов от ФНС на примере ресторана "У Татьяны"</h4>
+                            <p class="article-card__author">Вадим Козленко</p>
+                            <p class="article-card__pages">Страницы: 15-29</p>
+                            <button class="btn btn--primary">Читать статью</button>
+                        </article>
+                        <article class="article-card">
+                            <h4 class="article-card__title">Правовой статус бульбомета</h4>
+                            <p class="article-card__author">Косов Тохэн Владимирович aka Вождь</p>
+                            <p class="article-card__pages">Страницы: 45-62</p>
+                            <button class="btn btn--primary">Читать статью</button>
+                        </article>
+                        <article class="article-card">
+                            <h4 class="article-card__title">Правовой статус труханов Тохэна</h4>
+                            <p class="article-card__author">Прибыткин Захаr Владимиrович</p>
+                            <p class="article-card__pages">Страницы: 78-95</p>
+                            <button class="btn btn--primary">Читать статью</button>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section section--about hidden">
+            <div class="container">
+                <h2>О журнале</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Журнал «Новосибирская школа частного права» — ведущее российское научно-практическое издание в области цивилистики, основанное в 2025 году. Издание следует высочайшим академическим стандартам, установленным такими авторитетными изданиями как Harvard Law Review, Yale Law Journal, Stanford Law Review.</p>
+                        <p>Миссия журнала — развитие российской цивилистической науки, популяризация Новосиба, сбор денег БОРГАШУ на проживание в Мск, конструктивная критика МосПрава как социального института.</p>
+                    </div>
+                    <div class="mission-box">
+                        <h3>Наша миссия</h3>
+                        <ul>
+                            <li>Развитие российской цивилистической науки</li>
+                            <li>Популяризация Новосиба</li>
+                            <li>Сбор денег БОРГАШУ на проживание в Мск</li>
+                            <li>Конструктивная критика МосПрава и ВсОШ как социального института</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="editorial-board">
+                    <h3>Редакционная коллегия</h3>
+                    <div class="board-grid">
+                        <div class="board-member">
+                            <h4>Косов Тохэн Владимирович</h4>
+                            <p class="position">Главный редактор, наш ВОЖДЬ, уполномоченный представитель Самарской области</p>
+                            <p class="affiliation">НГУ</p>
+                        </div>
+                        <div class="board-member">
+                            <h4>Джека Клим</h4>
+                            <p class="position">Зам. главного редактора, МУЖЧИНА!</p>
+                            <p class="affiliation">СКФУ</p>
+                        </div>
+                        <div class="board-member">
+                            <h4>Лялин Даниил Вадимович</h4>
+                            <p class="position">Член редколлегии, штандартенфюрер</p>
+                            <p class="affiliation">МГУ</p>
+                        </div>
+                        <div class="board-member">
+                            <h4>Косов Кирилл Геннадиевич</h4>
+                            <p class="position">Член редколлегии, главная соя Пензы</p>
+                            <p class="affiliation">Пегыч</p>
+                        </div>
+                        <div class="board-member">
+                            <h4>Прибытков Захар Владимирович</h4>
+                            <p class="position">Член редколлегии, умник Муромского края</p>
+                            <p class="affiliation">РШЧП</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="org-chart">
+                    <h3>Организационная структура</h3>
+                    <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/eba25a4d4903633cf8ba2cae6c01bd8c/e11f35d8-d65a-4f6b-bc68-6147ec5bd584/4d4b63fd.png" alt="Организационная структура редакции" class="org-chart__image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Archive Section -->
+        <section id="archive" class="section section--archive hidden">
+            <div class="container">
+                <h2>Архив номеров</h2>
+                <div class="archive-controls">
+                    <select class="form-control" id="yearFilter">
+                        <option value="2025">2025</option>
+                        <option value="2024">2024</option>
+                    </select>
+                    <input type="text" class="form-control" placeholder="Поиск по статьям..." id="articleSearch">
+                </div>
+                <div class="archive-grid">
+                    <div class="issue-card">
+                        <div class="issue-number">№1</div>
+                        <div class="issue-year">2025</div>
+                        <div class="issue-theme">Кто убил маму?</div>
+                        <button class="btn btn--outline">Открыть номер</button>
+                    </div>
+                    <div class="issue-card">
+                        <div class="issue-number">№12</div>
+                        <div class="issue-year">2024</div>
+                        <div class="issue-theme">Итоги года в Московском праве</div>
+                        <button class="btn btn--outline">Открыть номер</button>
+                    </div>
+                    <div class="issue-card">
+                        <div class="issue-number">№11</div>
+                        <div class="issue-year">2024</div>
+                        <div class="issue-theme">Армянское право</div>
+                        <button class="btn btn--outline">Открыть номер</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Authors Section -->
+        <section id="authors" class="section section--authors hidden">
+            <div class="container">
+                <h2>Авторам</h2>
+                <div class="authors-content">
+                    <div class="requirements">
+                        <h3>Требования к статьям</h3>
+                        <ul>
+                            <li>Объем статьи: 20,000-40,000 знаков с пробелами</li>
+                            <li>Оформление: согласно ГОСТ 7.0.5-2008</li>
+                            <li>Язык публикации: русский или английский</li>
+                            <li>Обязательные элементы: аннотация, ключевые слова, список литературы</li>
+                            <li>Оригинальность: не менее 85% (проверка в системе Антиплагиат)</li>
+                        </ul>
+                    </div>
+                    <div class="review-process">
+                        <h3>Процедура рецензирования</h3>
+                        <ol>
+                            <li>Предварительная экспертиза редакцией (7 дней)</li>
+                            <li>Внешнее рецензирование (30-45 дней)</li>
+                            <li>Доработка автором при необходимости</li>
+                            <li>Итоговое решение редколлегии</li>
+                        </ol>
+                    </div>
+                    <div class="sections">
+                        <h3>Тематические разделы</h3>
+                        <div class="sections-grid">
+                            <div class="section-item">Общие вопросы гражданского права</div>
+                            <div class="section-item">Обязательственное право</div>
+                            <div class="section-item">Вещное право</div>
+                            <div class="section-item">Корпоративное право</div>
+                            <div class="section-item">Банкротное право</div>
+                            <div class="section-item">Интеллектуальная собственность</div>
+                            <div class="section-item">Международное частное право</div>
+                            <div class="section-item">Судебная практика</div>
+                        </div>
+                    </div>
+                    <div class="submit-form">
+                        <h3>Подать статью</h3>
+                        <form class="submission-form">
+                            <div class="form-group">
+                                <label class="form-label">Ф.И.О. автора</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Учреждение</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Название статьи</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Раздел журнала</label>
+                                <select class="form-control" required>
+                                    <option value="">Выберите раздел</option>
+                                    <option value="general">Общие вопросы гражданского права</option>
+                                    <option value="obligations">Обязательственное право</option>
+                                    <option value="property">Вещное право</option>
+                                    <option value="corporate">Корпоративное право</option>
+                                    <option value="bankruptcy">Банкротное право</option>
+                                    <option value="ip">Интеллектуальная собственность</option>
+                                    <option value="international">Международное частное право</option>
+                                    <option value="practice">Судебная практика</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Краткая аннотация</label>
+                                <textarea class="form-control" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn--primary">Подать статью</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Subscription Section -->
+        <section id="subscription" class="section section--subscription hidden">
+            <div class="container">
+                <h2>Подписка</h2>
+                <div class="subscription-options">
+                    <div class="subscription-card">
+                        <h3>Печатная версия</h3>
+                        <div class="price">12,000 ₽/год</div>
+                        <ul>
+                            <li>12 номеров в год</li>
+                            <li>Доставка по России</li>
+                            <li>Доступ к архиву</li>
+                            <li>Сертификат подписчика</li>
+                        </ul>
+                        <button class="btn btn--primary">Оформить подписку</button>
+                    </div>
+                    <div class="subscription-card featured">
+                        <h3>Электронная версия</h3>
+                        <div class="price">8,000 ₽/год</div>
+                        <ul>
+                            <li>Мгновенный доступ к номерам</li>
+                            <li>Полнотекстовый поиск</li>
+                            <li>Скачивание PDF</li>
+                            <li>Уведомления о новых выпусках</li>
+                        </ul>
+                        <button class="btn btn--primary">Оформить подписку</button>
+                    </div>
+                    <div class="subscription-card">
+                        <h3>Корпоративная</h3>
+                        <div class="price">от 25,000 ₽/год</div>
+                        <ul>
+                            <li>Доступ для всех сотрудников</li>
+                            <li>Печатная + электронная версия</li>
+                            <li>Приоритетная поддержка</li>
+                            <li>Скидки на конференции</li>
+                        </ul>
+                        <button class="btn btn--primary">Связаться с нами</button>
+                    </div>
+                </div>
+                <div class="business-model">
+                    <h3>Бизнес-модель журнала</h3>
+                    <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/eba25a4d4903633cf8ba2cae6c01bd8c/a3c9a2ae-63f0-422c-a7ba-6b7cb5c5cda8/17944af6.png" alt="Бизнес-модель журнала" class="business-model__chart">
+                </div>
+            </div>
+        </section>
+
+        <!-- Conferences Section -->
+        <section id="conferences" class="section section--conferences hidden">
+            <div class="container">
+                <h2>Конференции и мероприятия</h2>
+                <div class="conference-content">
+                    <div class="upcoming-event">
+                        <h3>Ежегодная конференция НШЧП-2025</h3>
+                        <div class="event-details">
+                            <div class="event-date">15-17 мая 2025</div>
+                            <div class="event-location">Новосибирск, НГУ</div>
+                            <div class="event-theme">Тема: "Частное право в эпоху цифровых технологий"</div>
+                        </div>
+                        <div class="event-info">
+                            <p>Приглашаем Льва Скардина, Сосаню и Мильто к участию в ежегодной конференции, посвященной актуальным вопросам развития частного права.</p>
+                            <div class="event-sections">
+                                <h4>Секции конференции:</h4>
+                                <ul>
+                                    <li>Цифровые права и смарт-контракты</li>
+                                    <li>ИИ в правоприменении</li>
+                                    <li>Блокчейн и право собственности</li>
+                                    <li>Защита персональных данных</li>
+                                    <li>Электронное правосудие</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="registration">
+                            <h4>Регистрация участников</h4>
+                            <form class="registration-form">
+                                <div class="form-group">
+                                    <label class="form-label">Ф.И.О.</label>
+                                    <input type="text" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Email</label>
+                                    <input type="email" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Учреждение</label>
+                                    <input type="text" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Статус участника</label>
+                                    <select class="form-control" required>
+                                        <option value="">Выберите статус</option>
+                                        <option value="speaker">Спикер</option>
+                                        <option value="participant">Участник</option>
+                                        <option value="student">Студент</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="btn btn--primary">Зарегистрироваться</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="past-conferences">
+                        <h3>Материалы прошлых конференций</h3>
+                        <div class="past-events">
+                            <div class="past-event">
+                                <h4>НШЧП-2024: "Развитие обязательственного права"</h4>
+                                <p>Сборник материалов доступен для скачивания</p>
+                                <button class="btn btn--outline">Скачать материалы</button>
+                            </div>
+                            <div class="past-event">
+                                <h4>НШЧП-2023: "Корпоративное право: новые вызовы"</h4>
+                                <p>Видеозаписи докладов и презентации</p>
+                                <button class="btn btn--outline">Посмотреть записи</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h4>Контакты</h4>
+                    <p>Общага ЛФУ</p>
+                    <p>Москва, Ленинградский пр-т д.54</p>
+                    <p>Email: BORGASH@nschp.ru</p>
+                    <p>Телефон: +7 (988) 114-48-58</p>
+                </div>
+                <div class="footer__section">
+                    <h4>Полезные ссылки</h4>
+                    <ul>
+                        <li><a href="#about">О журнале</a></li>
+                        <li><a href="#authors">Авторам</a></li>
+                        <li><a href="#subscription">Подписка</a></li>
+                        <li><a href="#conferences">Конференции</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4>Следите за нами</h4>
+                    <div class="social-links">
+                        <a href="#" target="_blank">VK</a>
+                        <a href="#" target="_blank">Telegram</a>
+                        <a href="#" target="_blank">ResearchGate</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Атрофаны2020.ru. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
